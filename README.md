@@ -1,12 +1,12 @@
-Exercícios Práticos
+Exercícios Práticos 
 1. Calculadora Simples:
-○ Crie um programa que solicite dois números e uma operação (+, -, *, /) e exiba o resultado.
-1. Verificação de Número Par ou Ímpar:
-○ Crie um programa que verifique se um número é par ou ímpar.
-1. Fatorial de um Número:
-○ Crie um programa que calcule o fatorial de um número dado.
-1. Tabuada:
-○ Crie um programa que exiba a tabuada de 1 a 10 para um número dado.
+○ Crie um programa que solicite dois números e uma operação (+, -, *, /) e exiba o resultado. -ok
+2. Verificação de Número Par ou Ímpar:
+○ Crie um programa que verifique se um número é par ou ímpar. - ok
+3. Fatorial de um Número:
+○ Crie um programa que calcule o fatorial de um número dado. - ok
+4. Tabuada:
+○ Crie um programa que exiba a tabuada de 1 a 10 para um número dado. - ok
 ---------------------------------------------------------------------------------------------
 ● Crie um programa que preencha uma matriz 3x3 com números inteiros fornecidos pelo usuário. 
 Em seguida, calcule e exiba a soma de todos os elementos da matriz e a soma de cada linha.

@@ -1,32 +1,39 @@
 package exercicios;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Matriz {
 
     public static void Matriz(){
-        Scanner numero = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int matriz[][] = new int[3][3];
-        int linha = 3;
-        int coluna = linha;
+        int somaLinha;
         int somaLinhas[] = new int[3];
-        int soma;
-        int total = 0;
-        for (int i = 0; i < linha; i++) {
-            soma = 0;
-            for (int j = 0; j < coluna; j++) {
-                System.out.println("Digite um numero");
-                matriz[i][j] = numero.nextInt();
-                soma += matriz[i][j];
-                total += soma;
+        System.out.println("Digite 9 números");
+
+        for (int i = 0; i < 3; i++) {
+            somaLinha = 0;
+            for (int j = 0; j < 3; j++) {
+                System.out.println("Digite um número");
+                matriz[i][j] = scanner.nextInt();
+                somaLinha += matriz[i][j];
             }
-            somaLinhas[i] = soma;
+            somaLinhas[i] = somaLinha;
         }
 
-
-        numero.close();
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                System.out.print(matriz[i][j]+" ");
+            }
+            System.out.println("");
+        }
+        for (int i = 0; i < somaLinhas.length ; i++) {
+            System.out.printf("Soma da linha %d = %d\n", (i+1), somaLinhas[i]);
+        }
+        scanner.close();
     }
 
 }
