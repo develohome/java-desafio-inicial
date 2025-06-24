@@ -9,7 +9,7 @@ Exercícios Práticos
 ○ Crie um programa que exiba a tabuada de 1 a 10 para um número dado. - ok
 ---------------------------------------------------------------------------------------------
 ● Crie um programa que preencha uma matriz 3x3 com números inteiros fornecidos pelo usuário. 
-Em seguida, calcule e exiba a soma de todos os elementos da matriz e a soma de cada linha.
+Em seguida, calcule e exiba a soma de todos os elementos da matriz e a soma de cada linha. - ok
 
 ● Crie um programa que receba uma lista de números inteiros do usuário e use streams para:
 1. Filtrar os números ímpares.

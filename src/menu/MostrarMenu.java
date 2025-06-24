@@ -11,6 +11,7 @@ public class MostrarMenu {
         System.out.println("| 3) Fatorial de um número     |");
         System.out.println("| 4) Tabuada                   |");
         System.out.println("| 5) Matriz                    |");
+        System.out.println("| 6) Lista de números          |");
         System.out.println("+------------------------------+");
     }
 }

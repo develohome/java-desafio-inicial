@@ -32,6 +32,9 @@ public class Main {
             case 5:
                 Matriz.Matriz();
                 break;
+            case 6:
+                ListaDeNumeros.ListaDeNumeros();
+                break;
         }
         scanner.close();
     }

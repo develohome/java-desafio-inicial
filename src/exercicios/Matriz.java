@@ -12,6 +12,7 @@ public class Matriz {
         int matriz[][] = new int[3][3];
         int somaLinha;
         int somaLinhas[] = new int[3];
+        int totalDeValores = 0;
         System.out.println("Digite 9 números");
 
         for (int i = 0; i < 3; i++) {
@@ -27,12 +28,19 @@ public class Matriz {
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print(matriz[i][j]+" ");
+                totalDeValores += matriz[i][j];
             }
             System.out.println("");
         }
+
         for (int i = 0; i < somaLinhas.length ; i++) {
+            System.out.println("-----------------------------");
             System.out.printf("Soma da linha %d = %d\n", (i+1), somaLinhas[i]);
         }
+
+        System.out.println("-----------------------------");
+        System.out.printf("Soma total: %d", totalDeValores);
+
         scanner.close();
     }
 
