@@ -35,6 +35,11 @@ public class Main {
             case 6:
                 ListaDeNumeros.ListaDeNumeros();
                 break;
+            case 7:
+                ListaNome.ListaNome();
+                break;
+                default:
+                    System.out.println("Invalido");
         }
         scanner.close();
     }
